@@ -1,0 +1,111 @@
+ 
+
+/* Color settings */
+
+
+
+
+$errorMsgColor: #ff0000;
+
+/* Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  font-size: 14px solid black;
+border-radius: 10px;
+
+}
+
+.container {
+  width: 600px;
+  margin: 5px auto;
+
+}
+
+
+  label {
+    border: 0;
+    margin-bottom: 3px;
+    display: inline;
+    width: 100%;
+      margin-right: 200px;
+
+  }
+h1{
+	background-color:#22acc3;
+  height: 60px;
+}
+.form{
+	text-align: center;
+	background-color:#c9bb3d;
+	height: 500px;
+
+}
+.age
+{
+	margin-left: 50px;
+}
+.error{
+	color: red;
+}
+input {
+    height: 25px;
+    line-height: 25px;
+   
+    padding: 0 6px;
+
+  }
+  button {
+    background-color: blue !important;
+    color: white !important;
+    margin-left: 2px;
+  }
+  table{
+        width: 100%;
+        margin: 20px 0;
+        border-collapse: collapse;
+    }
+    
+    table, th, td{
+        border: 1px solid black;
+    }
+    table th, table td{
+        padding: 5px;
+        text-align: left;
+    }
+    tr:nth-child(even){
+        background: lavenderblush;
+    }
+     tr:hover{
+      background-color: #28b4b5;
+     }
+    .w-200{
+        width: 200px;
+    }
+ .btnupdate{
+  background-color: blue;
+  color: white;
+ }
+ .update{
+  background-color: green;
+  color: white;
+ }
+ 
+ .delete{
+  background-color: red;
+  color: white;
+ }
+ .contain
+{
+  border :2px solid black;
+  max-width: 500px;
+  width: 100%;
+  background-color: #e6cdcd;
+  margin: 10px auto;
+  border-radius: 15px;
+}
